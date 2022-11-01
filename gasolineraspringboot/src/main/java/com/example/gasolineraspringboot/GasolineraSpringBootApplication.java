@@ -1,5 +1,6 @@
 package com.example.gasolineraspringboot;
 
+import com.example.gasolineraspringboot.gasolinera.Lanzador;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GasolineraSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GasolineraSpringBootApplication.class, args);
+		Lanzador.lanzador(args);
 	}
 
 }
