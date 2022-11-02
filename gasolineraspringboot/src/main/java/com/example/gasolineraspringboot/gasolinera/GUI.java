@@ -1,17 +1,9 @@
 package com.example.gasolineraspringboot.gasolinera;
 
 import java.awt.*;
+import javax.swing.*;
 import java.util.ArrayList;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.border.Border;
-
-/**
- * GUI
- */
 public class GUI {
     private static JFrame frame1;
     private static JPanel panel = new JPanel();
@@ -28,6 +20,8 @@ public class GUI {
         panel.setLayout(new GridLayout(numSurtidores, 1));
 
         frame1.setVisible(true);
+
+        buttons = new ArrayList<>();
 
         for (int i = 0; i < numSurtidores; i++) {
             buttons.add(new JButton());
