@@ -42,7 +42,7 @@ public class Gasolinera {
         System.out.println(cliente.nombreCliente + " está repostando");
         Lanzador.gui.setColorYellow(indice, cliente.nombreCliente + " está repostando");
         try {
-            cliente.sleep(1000);
+            cliente.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -52,7 +52,7 @@ public class Gasolinera {
         System.out.println(cliente.nombreCliente + " está pagando");
         Lanzador.gui.setColorGreen(indice, cliente.nombreCliente + " está pagando");
         try {
-            cliente.sleep(5000);
+            cliente.sleep(7000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
