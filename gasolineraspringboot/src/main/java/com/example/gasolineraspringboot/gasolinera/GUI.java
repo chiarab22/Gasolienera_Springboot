@@ -28,6 +28,14 @@ public class GUI {
         panel.setLayout(new GridLayout(numSurtidores, 1));
 
         frame1.setVisible(true);
+
+        for (int i = 0; i < numSurtidores; i++) {
+            buttons.add(new JButton());
+        }
+
+        for (int i = 0; i < numSurtidores; i++) {
+            panel.add(buttons.get(i));
+        }
     }
 
     public static void setColorGray(int i, String msg) {
