@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gasolineraspringboot" target="17" />
+      <module name="gasolineraspringboot" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
